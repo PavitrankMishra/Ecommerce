@@ -7,13 +7,13 @@
   padding: 20px 0;
 }
 
+.headerSection .search {
+  border-bottom: 1px solid #dcdbdb;
+}
+
 .headerSection button {
   color: #494848;
   font-size: 12px;
-}
-
-.headerSection .search {
-  border-bottom: 1px solid #b8b8b8;
 }
 
 .headerSection button {
@@ -29,7 +29,7 @@
   border: none;
   outline: none;
   padding-bottom: 4px;
-  width: 200px;
+  width: 12vw;
 }
 
 .headerSection .search input::placeholder {
@@ -37,7 +37,7 @@
 }
 
 .logoImage {
-  width: 200px;
+  width: 20vw;
   height: 75px;
 }
 
@@ -47,5 +47,18 @@
   }
   100% {
     opacity: 1;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .headerSection .search {
+    border: none;
+  }
+  .headerSection .search input {
+    display: none;
+  }
+
+  .logoImage {
+    width: 30vw;
   }
 }
