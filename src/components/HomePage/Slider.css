@@ -15,3 +15,9 @@
 .slideImage.show {
   opacity: 1;
 }
+
+@media screen and (max-width: 700px) {
+  .slideImage {
+    height: 50vh;
+  }
+}

@@ -1,7 +1,7 @@
 import Header from "../HomePage/Header";
 import Categories from "./Categories";
 import "./Home.css";
-import Menu from "./Menu";
+// import Menu from "./Menu";
 import Slider from "./Slider";
 
 const Home = () => {
@@ -9,7 +9,7 @@ const Home = () => {
     <>
       <section className="home">
         <Header />
-        <Menu />
+        {/* <Menu /> */}
         <Slider />
         <Categories />
       </section>

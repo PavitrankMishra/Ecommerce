@@ -5,8 +5,8 @@ const Categories = () => {
         <>
             <section className="categoriesContainer">
                 <section className="categoriesHeading">
-                    <p className="main">SHOP 24K GOLD-PLATED JEWELLERY</p>
-                    <p className="sub">Award-winning Designs | 2 Years Warranty</p>
+                    <p className="main">SHOP 22K and 24K GOLD-PLATED COLLECTION</p>
+                    <p className="sub">6 MONTHS WARRANTY | COD AVAILABLE</p>
                 </section>
                 <section className="categoriesBody">
                     <section className="part1">
@@ -59,6 +59,10 @@ const Categories = () => {
                 </section>
                 <section className="categoriesBody">
                     <section className="slidePart">
+                        <img src="https://www.brishni.com/cdn/shop/files/Untitled_design_36_1400x.png?v=1655462217"></img>
+                        <img src="https://www.brishni.com/cdn/shop/files/Untitled_design_36_1400x.png?v=1655462217"></img>
+                        <img src="https://www.brishni.com/cdn/shop/files/Untitled_design_36_1400x.png?v=1655462217"></img>
+                        <img src="https://www.brishni.com/cdn/shop/files/Untitled_design_36_1400x.png?v=1655462217"></img>
                         <img src="https://www.brishni.com/cdn/shop/files/Untitled_design_36_1400x.png?v=1655462217"></img>
                         <img src="https://www.brishni.com/cdn/shop/files/Untitled_design_36_1400x.png?v=1655462217"></img>
                         <img src="https://www.brishni.com/cdn/shop/files/Untitled_design_36_1400x.png?v=1655462217"></img>

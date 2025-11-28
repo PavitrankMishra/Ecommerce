@@ -1,20 +1,20 @@
-import Logo from "../../assets/Logo.png";
+import Logo from "../../assets/Logo.jpg";
 import "./Header.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import { faBagShopping } from "@fortawesome/free-solid-svg-icons";
-import {useState } from "react";
+// import {useState } from "react";
 
 const Header = () => {
-    const [inputValue, setInputValue] = useState("");
-    const handleInput = (e: React.ChangeEvent<HTMLInputElement>) => {
-        setInputValue(e.target.value);
-    }
+    // const [inputValue, setInputValue] = useState("");
+    // const handleInput = (e: React.ChangeEvent<HTMLInputElement>) => {
+    //     setInputValue(e.target.value);
+    // }
     return (
         <>
             <section className="headerSection">
                 <section className="search">
-                    <input placeholder="Search Product" value={inputValue} onChange={(e) => handleInput(e)} className="placeholderFade"></input>
+                    {/* <input placeholder="Search Product" value={inputValue} onChange={(e) => handleInput(e)} className="placeholderFade"></input> */}
                     <button>
                         <FontAwesomeIcon icon={faMagnifyingGlass} id="magnifying" size="xl" />
                     </button>
