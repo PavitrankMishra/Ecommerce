@@ -1,0 +1,25 @@
+.menuContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.menuContainer ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.menuContainer ul li {
+    list-style: none;
+    transition: all 0.2s ease-in-out;
+    letter-spacing: 1.2px;
+}
+
+.menuContainer ul li:hover {
+    cursor: pointer;
+    color:firebrick;
+}

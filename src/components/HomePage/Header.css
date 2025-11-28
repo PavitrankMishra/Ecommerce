@@ -1,0 +1,51 @@
+.headerSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  border-bottom: 1px solid #dcdbdb;
+  padding: 20px 0;
+}
+
+.headerSection button {
+  color: #494848;
+  font-size: 12px;
+}
+
+.headerSection .search {
+  border-bottom: 1px solid #b8b8b8;
+}
+
+.headerSection button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.headerSection input {
+  font-family: Poppins, Helvetica, Tahoma, Arial, sans-serif;
+  line-height: 1.5;
+  letter-spacing: 2px;
+  border: none;
+  outline: none;
+  padding-bottom: 4px;
+  width: 200px;
+}
+
+.headerSection .search input::placeholder {
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+.logoImage {
+  width: 200px;
+  height: 75px;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
