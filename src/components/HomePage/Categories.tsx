@@ -1,19 +1,17 @@
 import "./Categories.css";
 import V1 from "../../assets/Instareels.mp4";
 import V2 from "../../assets/Instareels2.mp4";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 
 const Categories = () => {
-    const [isPlaying, setIsPlaying] = useState(true);
-    const [isReady, setIsReady] = useState(false);
-    const videoRef = useRef(null);
-    const videoRef2 = useRef(null);
-    const videoRef3 = useRef(null);
-    const videoRef4 = useRef(null);
-    const videoRef5 = useRef(null);
-    const videoRef6 = useRef(null);
-    const videoRef7 = useRef(null);
-    const videoRef8 = useRef(null);
+    const videoRef = useRef<HTMLVideoElement>(null);
+    const videoRef2 = useRef<HTMLVideoElement>(null);
+    const videoRef3 = useRef<HTMLVideoElement>(null);
+    const videoRef4 = useRef<HTMLVideoElement>(null);
+    const videoRef5 = useRef<HTMLVideoElement>(null);
+    const videoRef6 = useRef<HTMLVideoElement>(null);
+    const videoRef7 = useRef<HTMLVideoElement>(null);
+    const videoRef8 = useRef<HTMLVideoElement>(null);
 
     useEffect(() => {
         const video = videoRef.current;
@@ -26,37 +24,104 @@ const Categories = () => {
         const video8 = videoRef8.current;
 
         const handleTimeUpdate = () => {
-            if (video.currentTime >= 5) {
-                video.currentTime = 0;
-                video.play();
-            } else if (video2.currentTime >= 5) {
-                video2.currentTime = 0;
-                video2.play();
-            } else if (video3.currentTime >= 5) {
-                video3.currentTime = 0;
-                video3.play();
-            } else if (video4.currentTime >= 5) {
-                video4.currentTime = 0;
-                video4.play();
-            } else if (video5.currentTime >= 5) {
-                video5.currentTime = 0;
-                video5.play();
-            } else if (video6.currentTime >= 5) {
-                video6.currentTime = 0;
-                video6.play();
-            } else if (video7.currentTime >= 5) {
-                video7.currentTime = 0;
-                video7.play();
-            } else if (video8.currentTime >= 5) {
-                video8.currentTTime = 0;
-                video8.play();
+            if (video) {
+                if (video.currentTime >= 5) {
+                    video.currentTime = 0;
+                    video.play();
+                }
             }
+
+            if (video2) {
+                if (video2.currentTime >= 5) {
+                    video2.currentTime = 0;
+                    video2.play();
+                }
+            }
+
+            if (video3) {
+                if (video3.currentTime >= 5) {
+                    video3.currentTime = 0;
+                    video3.play();
+                }
+            }
+
+            if (video4) {
+                if (video4.currentTime >= 5) {
+                    video4.currentTime = 0;
+                    video4.play();
+                }
+            }
+
+            if (video5) {
+                if (video5.currentTime >= 5) {
+                    video5.currentTime = 0;
+                    video5.play();
+                }
+            }
+
+            if (video6) {
+                if (video6.currentTime >= 5) {
+                    video6.currentTime = 0;
+                    video6.play();
+                }
+            }
+
+            if (video7) {
+                if (video7.currentTime >= 5) {
+                    video7.currentTime = 0;
+                    video7.play();
+                }
+            }
+
+            if (video8) {
+                if (video8.currentTime >= 5) {
+                    video8.currentTime = 0;
+                    video8.play();
+                }
+            }
+
         };
 
-        video.addEventListener("timeupdate", handleTimeUpdate);
+        if (video) {
+            video.addEventListener("timeupdate", handleTimeUpdate);
+        }
+        if (video2) {
+            video2.addEventListener("timeupdate", handleTimeUpdate);
+        }
+
+        if (video3) {
+            video3.addEventListener("timeupdate", handleTimeUpdate);
+        }
+
+        if (video4) {
+            video4.addEventListener("timeupdate", handleTimeUpdate);
+        }
+
+        if (video5) {
+            video5.addEventListener("timeupdate", handleTimeUpdate);
+        }
+
+        if (video6) {
+            video6.addEventListener("timeupdate", handleTimeUpdate);
+        }
+
+        if (video7) {
+            video7.addEventListener("timeupdate", handleTimeUpdate);
+        }
+
+        if (video8) {
+            video8.addEventListener("timeupdate", handleTimeUpdate);
+        }
 
         return () => {
-            video.removeEventListener("timeupdate", handleTimeUpdate);
+            video?.removeEventListener("timeupdate", handleTimeUpdate);
+            video2?.removeEventListener("timeupdate", handleTimeUpdate);
+            video3?.removeEventListener("timeupdate", handleTimeUpdate);
+            video4?.removeEventListener("timeupdate", handleTimeUpdate);
+            video5?.removeEventListener("timeupdate", handleTimeUpdate);
+            video6?.removeEventListener("timeupdate", handleTimeUpdate);
+            video7?.removeEventListener("timeupdate", handleTimeUpdate);
+            video8?.removeEventListener("timeupdate", handleTimeUpdate);
         };
     }, []);
     return (
