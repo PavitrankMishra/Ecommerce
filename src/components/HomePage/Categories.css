@@ -75,7 +75,7 @@
   scrollbar-width: none;
 }
 
-.categoriesContainer .categoriesBody .slidePart img {
+.categoriesContainer .categoriesBody .slidePart img, video {
   width: 17%;
   border-radius: 25px;
   height: 300px;

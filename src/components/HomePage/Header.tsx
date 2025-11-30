@@ -1,4 +1,4 @@
-import Logo from "../../assets/Logo.jpg";
+import Logo from "../../assets/Logo.png";
 import "./Header.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
