@@ -141,53 +141,85 @@ const Categories = () => {
                     </section>
                 </section>
                 <section className="categoriesHeading">
-                    <p className="main">BRIDAL COLLECTIONS</p>
-                    <p className="sub">Soulful Designs Of Bridal Accessories</p>
+                    <p className="main">BEST SELLERS</p>
+                    <p className="sub">NECKLACE | CHOKER | EARRINGS | RANIHAR</p>
                 </section>
                 <section className="categoriesBody">
                     <section className="slidePart">
-                        <video src={V1} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef}></video>
-                        <video src={V2} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef2}></video>
-                        <video src={V1} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef3}></video>
-                        <video src={V1} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef4}></video>
+                        <section className="videoSection">
+                            <video src={V1} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef5}></video>
+                        </section>
+                        <section className="videoSection">
+                            <video src={V2} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef6}></video>
+                        </section>
+                        <section className="videoSection">
+                            <video src={V1} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef7}></video>
+                        </section>
+                        <section className="videoSection">
+                            <video src={V1} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef8}></video>
+                        </section>
                     </section>
                 </section>
                 <section className="categoriesHeading">
-                    <p className="main">SHOP NECKLACE SETS</p>
-                    <p className="sub">Bengali Traditional Designs</p>
+                    <p className="main">PEARL COLLECTIONS</p>
+                    <p className="sub">CHAIN | PENDANT | SLEEK MANGALSUTRA | SUI DHAGA</p>
                 </section>
                 <section className="categoriesBody">
                     <section className="slidePart">
-                        <video src={V1} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef5}></video>
-                        <video src={V2} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef6}></video>
-                        <video src={V1} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef7}></video>
-                        <video src={V1} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef8}></video>
-                    </section>
-                </section>
-                {/* <section className="categoriesHeading">
-                    <p className="main">SHOP BANGLES</p>
-                    <p className="sub">Bengali Traditional Collections</p>
-                </section>
-                <section className="categoriesBody">
-                    <section className="slidePart">
-                        <video src={V1} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef}></video>
-                        <video src={V2} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef2}></video>
-                        <video src={V1} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef3}></video>
-                        <video src={V1} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef4}></video>
+                        <section className="videoSection">
+                            <video src={V1} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef5}></video>
+                        </section>
+                        <section className="videoSection">
+                            <video src={V2} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef6}></video>
+                        </section>
+                        <section className="videoSection">
+                            <video src={V1} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef7}></video>
+                        </section>
+                        <section className="videoSection">
+                            <video src={V1} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef8}></video>
+                        </section>
                     </section>
                 </section>
                 <section className="categoriesHeading">
-                    <p className="main">BEST SELLER NECKLACES</p>
-                    <p className="sub">Crafted For The Queen</p>
+                    <p className="main">SHELL COLLECTIONS</p>
+                    <p className="sub">PENDANT | NECKLACE | LONG SET</p>
                 </section>
                 <section className="categoriesBody">
                     <section className="slidePart">
-                        <video src={V1} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef}></video>
-                        <video src={V2} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef2}></video>
-                        <video src={V1} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef3}></video>
-                        <video src={V1} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef4}></video>
+                        <section className="videoSection">
+                            <video src={V1} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef5}></video>
+                        </section>
+                        <section className="videoSection">
+                            <video src={V2} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef6}></video>
+                        </section>
+                        <section className="videoSection">
+                            <video src={V1} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef7}></video>
+                        </section>
+                        <section className="videoSection">
+                            <video src={V1} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef8}></video>
+                        </section>
                     </section>
-                </section> */}
+                </section>
+                <section className="categoriesHeading">
+                    <p className="main">BANGLE COLLECTIONS</p>
+                    <p className="sub">CHUR | KANKAN | BALA | POLA</p>
+                </section>
+                <section className="categoriesBody">
+                    <section className="slidePart">
+                        <section className="videoSection">
+                            <video src={V1} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef5}></video>
+                        </section>
+                        <section className="videoSection">
+                            <video src={V2} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef6}></video>
+                        </section>
+                        <section className="videoSection">
+                            <video src={V1} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef7}></video>
+                        </section>
+                        <section className="videoSection">
+                            <video src={V1} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef8}></video>
+                        </section>
+                    </section>
+                </section>
             </section>
         </>
     )
