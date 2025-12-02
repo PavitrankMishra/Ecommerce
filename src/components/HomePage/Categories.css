@@ -153,10 +153,10 @@
     width: 100%;
     gap: 20px;
   }
-  .categoriesContainer .categoriesBody .slidePart .videoSection {
+  /* .categoriesContainer .categoriesBody .slidePart .videoSection {
     width: 50%;
     height: 100%;
-  }
+  } */
 
   .categoriesContainer .categoriesBody .slidePart {
     overflow-x: auto;
