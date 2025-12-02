@@ -5,8 +5,7 @@
   width: 100%;
 }
 
-.categoriesContainer .categoriesHeading,
-.categoriesContainer .bridalCategories .bridalCategoriesHeading {
+.categoriesContainer .categoriesHeading {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -15,14 +14,14 @@
   margin-bottom: 20px;
 }
 
-.categoriesContainer .main {
+.categoriesContainer .categoriesHeading .main {
   font-size: 30px;
   color: firebrick;
   text-align: center;
   font-weight: 500;
 }
 
-.categoriesContainer .sub {
+.categoriesContainer .categoriesHeading .sub {
   font-size: 15px;
   text-align: center;
 }
@@ -53,6 +52,7 @@
 .categoriesContainer .categoriesBody .part1 img:hover {
   cursor: pointer;
 }
+
 .categoriesContainer .categoriesBody .part2 {
   display: flex;
   align-items: center;
@@ -79,16 +79,32 @@
   overflow-y: hidden;
 }
 
-.categoriesContainer .categoriesBody .slidePart .videoSection {
+.categoriesContainer .categoriesBody .slidePart .videoSection,
+.imageSection {
   flex: 0 0 auto;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
   gap: 6px;
+  transition: all 0.5s ease-in-out;
 }
 
-.categoriesContainer .categoriesBody .slidePart .videoSection button {
+.categoriesContainer .categoriesBody .slidePart .imageSection {
+  width: 250px;
+  height: 470px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.categoriesContainer .categoriesBody .slidePart .imageSection img {
+  width: 100%;
+  height: 70%;
+}
+
+.categoriesContainer .categoriesBody .slidePart .videoSection button, .categoriesContainer .categoriesBody .slidePart .imageSection button {
   background: transparent;
   border: none;
   outline: none;
@@ -101,7 +117,8 @@
   position: relative;
   overflow: hidden;
   z-index: 1;
-  border:1px solid #f7c873;
+  border: 1px solid #f7c873;
+  margin-top: 12px;
 }
 
 .categoriesContainer .categoriesBody .slidePart .videoSection button::before {
@@ -111,7 +128,7 @@
   left: 0;
   width: 100%;
   height: 0;
-  background:antiquewhite;
+  background: antiquewhite;
   background: #f7c873;
   z-index: -1;
   transition: 0.5s ease-in-out;
@@ -125,7 +142,7 @@
   height: 100%;
 }
 
-.categoriesContainer .categoriesBody .slidePart .videoSection span {
+.categoriesContainer .categoriesBody .slidePart .videoSection span, .categoriesContainer .categoriesBody .slidePart .imageSection span {
   text-wrap: wrap;
   width: 230px;
   text-align: center;
@@ -134,13 +151,13 @@
   font-size: 12px;
 }
 
-.categoriesContainer .categoriesBody .slidePart .videoSection #originalPrice {
+.categoriesContainer .categoriesBody .slidePart .videoSection #originalPrice, .categoriesContainer .categoriesBody .slidePart .imageSection #originalPrice {
   text-decoration: line-through;
   font-size: 14px;
   text-decoration-color: red;
 }
 
-.categoriesContainer .categoriesBody .slidePart .videoSection #discountPrice {
+.categoriesContainer .categoriesBody .slidePart .videoSection #discountPrice, .categoriesContainer .categoriesBody .slidePart .imageSection #discountPrice {
   padding: 6px;
   width: auto;
   text-align: center;
@@ -148,6 +165,15 @@
   font-weight: 400;
   font-size: 16px;
   color: red;
+}
+
+
+.categoriesContainer .categoriesBody .slidePart .videoSection #percentageDiscount, .categoriesContainer .categoriesBody .slidePart .imageSection #percentageDiscount {
+  background: red;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 12px;
+  font-weight: 500;
 }
 
 .categoriesContainer .categoriesBody .slidePart video {

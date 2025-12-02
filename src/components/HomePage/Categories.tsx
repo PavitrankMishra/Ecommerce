@@ -2,6 +2,8 @@ import "./Categories.css";
 import V1 from "../../assets/Instareels.mp4";
 import V2 from "../../assets/Instareels2.mp4";
 import { useEffect, useRef } from "react";
+import I1 from "../../assets/J1.jpg";
+import I2 from "../../assets/J2.jpg";
 
 const Categories = () => {
     const videoRef = useRef<HTMLVideoElement>(null);
@@ -142,7 +144,6 @@ const Categories = () => {
                 </section>
                 <section className="categoriesHeading">
                     <p className="main">BEST SELLERS</p>
-                    <p className="sub">NECKLACE | CHOKER | EARRINGS | RANIHAR</p>
                 </section>
                 <section className="categoriesBody">
                     <section className="slidePart">
@@ -150,28 +151,40 @@ const Categories = () => {
                             <video src={V1} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef}></video>
                             <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
                             <span id="originalPrice">Rs.10200</span>
-                            <span id="discountPrice">Rs.6000</span>
+                            <section>
+                                <span id="discountPrice">Rs.6000</span>
+                                <span id="percentageDiscount">70% Off</span>
+                            </section>
                             <button id="purchase">Buy Now</button>
                         </section>
                         <section className="videoSection">
                             <video src={V2} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef2}></video>
                             <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
                             <span id="originalPrice">Rs.10200</span>
-                            <span id="discountPrice">Rs.6000</span>
+                            <section>
+                                <span id="discountPrice">Rs.6000</span>
+                                <span id="percentageDiscount">70% Off</span>
+                            </section>
                             <button id="purchase">Buy Now</button>
                         </section>
                         <section className="videoSection">
                             <video src={V1} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef3}></video>
                             <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
                             <span id="originalPrice">Rs.10200</span>
-                            <span id="discountPrice">Rs.6000</span>
+                            <section>
+                                <span id="discountPrice">Rs.6000</span>
+                                <span id="percentageDiscount">70% Off</span>
+                            </section>
                             <button id="purchase">Buy Now</button>
                         </section>
                         <section className="videoSection">
                             <video src={V1} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef4}></video>
                             <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
                             <span id="originalPrice">Rs.10200</span>
-                            <span id="discountPrice">Rs.6000</span>
+                            <section>
+                                <span id="discountPrice">Rs.6000</span>
+                                <span id="percentageDiscount">70% Off</span>
+                            </section>
                             <button id="purchase">
                                 Buy Now</button>
                         </section>
@@ -179,21 +192,50 @@ const Categories = () => {
                 </section>
                 <section className="categoriesHeading">
                     <p className="main">PEARL COLLECTIONS</p>
-                    <p className="sub">CHAIN | PENDANT | SLEEK MANGALSUTRA | SUI DHAGA</p>
+                    <p className="sub">NECKLACE | CHOKER | EARRINGS | RANIHAR</p>
                 </section>
                 <section className="categoriesBody">
                     <section className="slidePart">
-                        <section className="videoSection">
-                            {/* <video src={V1} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef5}></video> */}
+                        <section className="imageSection">
+                            <img src={I1} className="jewelleryImage" />
+                            <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
+                            <span id="originalPrice">Rs.10200</span>
+
+                            <section>
+                                <span id="discountPrice">Rs.6000</span>
+                                <span id="percentageDiscount">70% Off</span>
+                            </section>
+                            {/* <button id="purchase">Buy Now</button> */}
                         </section>
-                        <section className="videoSection">
-                            {/* <video src={V2} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef6}></video> */}
+                        <section className="imageSection">
+                            <img src={I1} className="jewelleryImage" />
+                            <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
+                            <span id="originalPrice">Rs.10200</span>
+                            <section>
+                                <span id="discountPrice">Rs.6000</span>
+                                <span id="percentageDiscount">70% Off</span>
+                            </section>
+                            {/* <button id="purchase">Buy Now</button> */}
                         </section>
-                        <section className="videoSection">
-                            {/* <video src={V1} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef7}></video> */}
+                        <section className="imageSection">
+                            <img src={I1} className="jewelleryImage" />
+                            <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
+                            <span id="originalPrice">Rs.10200</span>
+                            <section>
+                                <span id="discountPrice">Rs.6000</span>
+                                <span id="percentageDiscount">70% Off</span>
+                            </section>
+                            {/* <button id="purchase">Buy Now</button> */}
                         </section>
-                        <section className="videoSection">
-                            {/* <video src={V1} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef8}></video> */}
+                        <section className="imageSection">
+                            <img src={I1} className="jewelleryImage" />
+                            <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
+                            <span id="originalPrice">Rs.10200</span>
+                            <section>
+                                <span id="discountPrice">Rs.6000</span>
+                                <span id="percentageDiscount">70% Off</span>
+                            </section>
+                            {/* <button id="purchase">Buy Now</button> */}
                         </section>
                     </section>
                 </section>
@@ -203,17 +245,45 @@ const Categories = () => {
                 </section>
                 <section className="categoriesBody">
                     <section className="slidePart">
-                        <section className="videoSection">
-                            {/* <video src={V1} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef5}></video> */}
+                        <section className="imageSection">
+                            <img src={I1} className="jewelleryImage" />
+                            <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
+                            <span id="originalPrice">Rs.10200</span>
+                            <section>
+                                <span id="discountPrice">Rs.6000</span>
+                                <span id="percentageDiscount">70% Off</span>
+                            </section>
+                            {/* <button id="purchase">Buy Now</button> */}
                         </section>
-                        <section className="videoSection">
-                            {/* <video src={V2} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef6}></video> */}
+                        <section className="imageSection">
+                            <img src={I1} className="jewelleryImage" />
+                            <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
+                            <span id="originalPrice">Rs.10200</span>
+                            <section>
+                                <span id="discountPrice">Rs.6000</span>
+                                <span id="percentageDiscount">70% Off</span>
+                            </section>
+                            {/* <button id="purchase">Buy Now</button> */}
                         </section>
-                        <section className="videoSection">
-                            {/* <video src={V1} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef7}></video> */}
+                        <section className="imageSection">
+                            <img src={I1} className="jewelleryImage" />
+                            <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
+                            <span id="originalPrice">Rs.10200</span>
+                            <section>
+                                <span id="discountPrice">Rs.6000</span>
+                                <span id="percentageDiscount">70% Off</span>
+                            </section>
+                            {/* <button id="purchase">Buy Now</button> */}
                         </section>
-                        <section className="videoSection">
-                            {/* <video src={V1} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef8}></video> */}
+                        <section className="imageSection">
+                            <img src={I1} className="jewelleryImage" />
+                            <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
+                            <span id="originalPrice">Rs.10200</span>
+                            <section>
+                                <span id="discountPrice">Rs.6000</span>
+                                <span id="percentageDiscount">70% Off</span>
+                            </section>
+                            {/* <button id="purchase">Buy Now</button> */}
                         </section>
                     </section>
                 </section>
@@ -223,17 +293,50 @@ const Categories = () => {
                 </section>
                 <section className="categoriesBody">
                     <section className="slidePart">
-                        <section className="videoSection">
-                            {/* <video src={V1} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef5}></video> */}
+                        <section className="imageSection">
+
+                            <img src={I1} className="jewelleryImage" />
+                            <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
+                            <span id="originalPrice">Rs.10200</span>
+                            <section>
+                                <span id="discountPrice">Rs.6000</span>
+                                <span id="percentageDiscount">70% Off</span>
+                            </section>
+                            {/* <button id="purchase">Buy Now</button> */}
+
                         </section>
-                        <section className="videoSection">
-                            {/* <video src={V2} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef6}></video> */}
+                        <section className="imageSection">
+
+                            <img src={I1} className="jewelleryImage" />
+                            <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
+                            <span id="originalPrice">Rs.10200</span>
+                            <section>
+                                <span id="discountPrice">Rs.6000</span>
+                                <span id="percentageDiscount">70% Off</span>
+                            </section>
+                            {/* <button id="purchase">Buy Now</button> */}
                         </section>
-                        <section className="videoSection">
-                            {/* <video src={V1} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef7}></video> */}
+                        <section className="imageSection">
+
+                            <img src={I1} className="jewelleryImage" />
+                            <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
+                            <span id="originalPrice">Rs.10200</span>
+                            <section>
+                                <span id="discountPrice">Rs.6000</span>
+                                <span id="percentageDiscount">70% Off</span>
+                            </section>
+                            {/* <button id="purchase">Buy Now</button> */}
                         </section>
-                        <section className="videoSection">
-                            {/* <video src={V1} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef8}></video> */}
+                        <section className="imageSection">
+
+                            <img src={I1} className="jewelleryImage" />
+                            <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
+                            <span id="originalPrice">Rs.10200</span>
+                            <section>
+                                <span id="discountPrice">Rs.6000</span>
+                                <span id="percentageDiscount">70% Off</span>
+                            </section>
+                            {/* <button id="purchase">Buy Now</button> */}
                         </section>
                     </section>
                 </section>
