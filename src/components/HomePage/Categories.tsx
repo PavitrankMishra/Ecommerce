@@ -3,7 +3,6 @@ import V1 from "../../assets/Instareels.mp4";
 import V2 from "../../assets/Instareels2.mp4";
 import { useEffect, useRef } from "react";
 import I1 from "../../assets/J1.jpg";
-import I2 from "../../assets/J2.jpg";
 
 const Categories = () => {
     const videoRef = useRef<HTMLVideoElement>(null);
