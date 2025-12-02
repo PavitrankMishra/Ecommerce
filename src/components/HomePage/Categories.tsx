@@ -151,87 +151,92 @@ const Categories = () => {
                             <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
                             <span id="originalPrice">Rs.10200</span>
                             <span id="discountPrice">Rs.6000</span>
+                            <button id="purchase">Buy Now</button>
                         </section>
                         <section className="videoSection">
                             <video src={V2} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef2}></video>
                             <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
                             <span id="originalPrice">Rs.10200</span>
                             <span id="discountPrice">Rs.6000</span>
+                            <button id="purchase">Buy Now</button>
                         </section>
                         <section className="videoSection">
                             <video src={V1} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef3}></video>
                             <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
                             <span id="originalPrice">Rs.10200</span>
                             <span id="discountPrice">Rs.6000</span>
+                            <button id="purchase">Buy Now</button>
                         </section>
                         <section className="videoSection">
                             <video src={V1} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef4}></video>
                             <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
                             <span id="originalPrice">Rs.10200</span>
                             <span id="discountPrice">Rs.6000</span>
+                            <button id="purchase">
+                                Buy Now</button>
                         </section>
                     </section>
                 </section>
-                {/* <section className="categoriesHeading">
+                <section className="categoriesHeading">
                     <p className="main">PEARL COLLECTIONS</p>
                     <p className="sub">CHAIN | PENDANT | SLEEK MANGALSUTRA | SUI DHAGA</p>
                 </section>
                 <section className="categoriesBody">
                     <section className="slidePart">
                         <section className="videoSection">
-                            <video src={V1} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef5}></video>
+                            {/* <video src={V1} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef5}></video> */}
                         </section>
                         <section className="videoSection">
-                            <video src={V2} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef6}></video>
+                            {/* <video src={V2} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef6}></video> */}
                         </section>
                         <section className="videoSection">
-                            <video src={V1} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef7}></video>
+                            {/* <video src={V1} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef7}></video> */}
                         </section>
                         <section className="videoSection">
-                            <video src={V1} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef8}></video>
+                            {/* <video src={V1} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef8}></video> */}
                         </section>
                     </section>
-                </section> */}
-                {/* <section className="categoriesHeading">
+                </section>
+                <section className="categoriesHeading">
                     <p className="main">SHELL COLLECTIONS</p>
                     <p className="sub">PENDANT | NECKLACE | LONG SET</p>
                 </section>
                 <section className="categoriesBody">
                     <section className="slidePart">
                         <section className="videoSection">
-                            <video src={V1} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef5}></video>
+                            {/* <video src={V1} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef5}></video> */}
                         </section>
                         <section className="videoSection">
-                            <video src={V2} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef6}></video>
+                            {/* <video src={V2} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef6}></video> */}
                         </section>
                         <section className="videoSection">
-                            <video src={V1} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef7}></video>
+                            {/* <video src={V1} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef7}></video> */}
                         </section>
                         <section className="videoSection">
-                            <video src={V1} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef8}></video>
+                            {/* <video src={V1} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef8}></video> */}
                         </section>
                     </section>
-                </section> */}
-                {/* <section className="categoriesHeading">
+                </section>
+                <section className="categoriesHeading">
                     <p className="main">BANGLE COLLECTIONS</p>
                     <p className="sub">CHUR | KANKAN | BALA | POLA</p>
                 </section>
                 <section className="categoriesBody">
                     <section className="slidePart">
                         <section className="videoSection">
-                            <video src={V1} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef5}></video>
+                            {/* <video src={V1} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef5}></video> */}
                         </section>
                         <section className="videoSection">
-                            <video src={V2} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef6}></video>
+                            {/* <video src={V2} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef6}></video> */}
                         </section>
                         <section className="videoSection">
-                            <video src={V1} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef7}></video>
+                            {/* <video src={V1} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef7}></video> */}
                         </section>
                         <section className="videoSection">
-                            <video src={V1} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef8}></video>
+                            {/* <video src={V1} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef8}></video> */}
                         </section>
                     </section>
-                </section> */}
+                </section>
             </section>
         </>
     )
