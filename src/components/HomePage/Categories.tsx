@@ -3,6 +3,8 @@ import V1 from "../../assets/Instareels.mp4";
 import V2 from "../../assets/Instareels2.mp4";
 import { useEffect, useRef } from "react";
 import I1 from "../../assets/J1.jpg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 const Categories = () => {
     const videoRef = useRef<HTMLVideoElement>(null);
@@ -204,7 +206,6 @@ const Categories = () => {
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
-                            {/* <button id="purchase">Buy Now</button> */}
                         </section>
                         <section className="imageSection">
                             <img src={I1} className="jewelleryImage" />
@@ -214,7 +215,6 @@ const Categories = () => {
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
-                            {/* <button id="purchase">Buy Now</button> */}
                         </section>
                         <section className="imageSection">
                             <img src={I1} className="jewelleryImage" />
@@ -224,7 +224,6 @@ const Categories = () => {
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
-                            {/* <button id="purchase">Buy Now</button> */}
                         </section>
                         <section className="imageSection">
                             <img src={I1} className="jewelleryImage" />
@@ -234,7 +233,6 @@ const Categories = () => {
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
-                            {/* <button id="purchase">Buy Now</button> */}
                         </section>
                     </section>
                 </section>
@@ -252,7 +250,6 @@ const Categories = () => {
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
-                            {/* <button id="purchase">Buy Now</button> */}
                         </section>
                         <section className="imageSection">
                             <img src={I1} className="jewelleryImage" />
@@ -262,7 +259,6 @@ const Categories = () => {
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
-                            {/* <button id="purchase">Buy Now</button> */}
                         </section>
                         <section className="imageSection">
                             <img src={I1} className="jewelleryImage" />
@@ -272,7 +268,6 @@ const Categories = () => {
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
-                            {/* <button id="purchase">Buy Now</button> */}
                         </section>
                         <section className="imageSection">
                             <img src={I1} className="jewelleryImage" />
@@ -282,13 +277,11 @@ const Categories = () => {
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
-                            {/* <button id="purchase">Buy Now</button> */}
                         </section>
                     </section>
                 </section>
                 <section className="categoriesHeading">
                     <p className="main">CORPORATE COLLECTIONS</p>
-                    {/* <p className="sub">CHUR | KANKAN | BALA | POLA</p> */}
                 </section>
                 <section className="categoriesBody">
                     <section className="slidePart">
@@ -301,7 +294,6 @@ const Categories = () => {
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
-                            {/* <button id="purchase">Buy Now</button> */}
 
                         </section>
                         <section className="imageSection">
@@ -313,7 +305,6 @@ const Categories = () => {
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
-                            {/* <button id="purchase">Buy Now</button> */}
                         </section>
                         <section className="imageSection">
 
@@ -324,7 +315,6 @@ const Categories = () => {
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
-                            {/* <button id="purchase">Buy Now</button> */}
                         </section>
                         <section className="imageSection">
 
@@ -335,13 +325,11 @@ const Categories = () => {
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
-                            {/* <button id="purchase">Buy Now</button> */}
                         </section>
                     </section>
                 </section>
                 <section className="categoriesHeading">
                     <p className="main">MINIMALIST COLLECTIONS</p>
-                    {/* <p className="sub">CHUR | KANKAN | BALA | POLA</p> */}
                 </section>
                 <section className="categoriesBody">
                     <section className="slidePart">
@@ -354,7 +342,6 @@ const Categories = () => {
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
-                            {/* <button id="purchase">Buy Now</button> */}
 
                         </section>
                         <section className="imageSection">
@@ -366,7 +353,6 @@ const Categories = () => {
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
-                            {/* <button id="purchase">Buy Now</button> */}
                         </section>
                         <section className="imageSection">
 
@@ -377,7 +363,6 @@ const Categories = () => {
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
-                            {/* <button id="purchase">Buy Now</button> */}
                         </section>
                         <section className="imageSection">
 
@@ -388,13 +373,56 @@ const Categories = () => {
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
-                            {/* <button id="purchase">Buy Now</button> */}
                         </section>
                     </section>
                 </section>
-                <section className="categoriesHeading">
+
+                <section className="mainLayout">
+                    <section className="gridLayout">
+                        <section className="gridItem">
+                            <img src={I1} className="itemImage"></img>
+                        </section>
+                        <section className="gridItem special">
+                            <section className="categoryContent">
+                                <span className="heading">Elegant Necklace Collection</span>
+                                <span className="description">From traditional to modern designs, find the perfect piece for every occasion.</span>
+                                <button><span>Explore<FontAwesomeIcon icon={faArrowRight} /></span></button>
+                            </section>
+                        </section>
+                        <section className="gridItem special">
+                            <section className="categoryContent">
+                                <span className="heading">Stylish Choker Collection</span>
+                                <span className="description">Perfect for parties, casual outings, and special occasions.</span>
+                                <button><span>Explore<FontAwesomeIcon icon={faArrowRight} /></span></button>
+                            </section>
+                        </section>
+                        <section className="gridItem">
+                            <img src={I1} className="itemImage"></img>
+                        </section>
+                        <section className="gridItem">
+                            <img src={I1} className="itemImage"></img>
+                        </section>
+                        <section className="gridItem special">
+                            <section className="categoryContent">
+                                <span className="heading">Dangle Earring Collection</span>
+                                <span className="description">Explore our curated range of premium earrings designed to suit every mood and moment.</span>
+                                <button><span>Explore<FontAwesomeIcon icon={faArrowRight} /></span></button>
+                            </section>
+                        </section>
+                        <section className="gridItem special">
+                            <section className="categoryContent">
+                                <span className="heading">Timeless Bangle Collections</span>
+                                <span className="description">Celebrate your elegance with finely crafted bangles that blend tradition and modern artistry.</span>
+                                <button><span>Explore<FontAwesomeIcon icon={faArrowRight} /></span></button>
+                            </section>
+                        </section>
+                        <section className="gridItem">
+                            <img src={I1} className="itemImage"></img>
+                        </section>
+                    </section>
+                </section>
+                {/* <section className="categoriesHeading">
                     <p className="main">SHOP NECKLACE SETS</p>
-                    {/* <p className="sub">CHUR | KANKAN | BALA | POLA</p> */}
                 </section>
                 <section className="categoriesBody">
                     <section className="slidePart">
@@ -407,8 +435,15 @@ const Categories = () => {
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
-                            {/* <button id="purchase">Buy Now</button> */}
-
+                        </section>
+                        <section className="imageSection">
+                            <img src={I1} className="jewelleryImage" />
+                            <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
+                            <span id="originalPrice">Rs.10200</span>
+                            <section id="finalPrice">
+                                <span id="discountPrice">Rs.6000</span>
+                                <span id="percentageDiscount">70% Off</span>
+                            </section>
                         </section>
                         <section className="imageSection">
 
@@ -419,7 +454,6 @@ const Categories = () => {
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
-                            {/* <button id="purchase">Buy Now</button> */}
                         </section>
                         <section className="imageSection">
 
@@ -430,24 +464,11 @@ const Categories = () => {
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
-                            {/* <button id="purchase">Buy Now</button> */}
-                        </section>
-                        <section className="imageSection">
-
-                            <img src={I1} className="jewelleryImage" />
-                            <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
-                            <span id="originalPrice">Rs.10200</span>
-                            <section id="finalPrice">
-                                <span id="discountPrice">Rs.6000</span>
-                                <span id="percentageDiscount">70% Off</span>
-                            </section>
-                            {/* <button id="purchase">Buy Now</button> */}
                         </section>
                     </section>
                 </section>
                 <section className="categoriesHeading">
                     <p className="main">SHOP CHOKERS</p>
-                    {/* <p className="sub">CHUR | KANKAN | BALA | POLA</p> */}
                 </section>
                 <section className="categoriesBody">
                     <section className="slidePart">
@@ -460,8 +481,6 @@ const Categories = () => {
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
-                            {/* <button id="purchase">Buy Now</button> */}
-
                         </section>
                         <section className="imageSection">
 
@@ -472,7 +491,6 @@ const Categories = () => {
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
-                            {/* <button id="purchase">Buy Now</button> */}
                         </section>
                         <section className="imageSection">
 
@@ -483,7 +501,6 @@ const Categories = () => {
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
-                            {/* <button id="purchase">Buy Now</button> */}
                         </section>
                         <section className="imageSection">
 
@@ -494,13 +511,11 @@ const Categories = () => {
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
-                            {/* <button id="purchase">Buy Now</button> */}
                         </section>
                     </section>
                 </section>
                 <section className="categoriesHeading">
                     <p className="main">SHOP EARRINGS</p>
-                    {/* <p className="sub">CHUR | KANKAN | BALA | POLA</p> */}
                 </section>
                 <section className="categoriesBody">
                     <section className="slidePart">
@@ -513,8 +528,6 @@ const Categories = () => {
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
-                            {/* <button id="purchase">Buy Now</button> */}
-
                         </section>
                         <section className="imageSection">
 
@@ -525,7 +538,6 @@ const Categories = () => {
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
-                            {/* <button id="purchase">Buy Now</button> */}
                         </section>
                         <section className="imageSection">
 
@@ -536,7 +548,6 @@ const Categories = () => {
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
-                            {/* <button id="purchase">Buy Now</button> */}
                         </section>
                         <section className="imageSection">
 
@@ -547,13 +558,11 @@ const Categories = () => {
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
-                            {/* <button id="purchase">Buy Now</button> */}
                         </section>
                     </section>
                 </section>
                 <section className="categoriesHeading">
                     <p className="main">SHOP BANGLES</p>
-                    {/* <p className="sub">CHUR | KANKAN | BALA | POLA</p> */}
                 </section>
                 <section className="categoriesBody">
                     <section className="slidePart">
@@ -566,8 +575,6 @@ const Categories = () => {
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
-                            {/* <button id="purchase">Buy Now</button> */}
-
                         </section>
                         <section className="imageSection">
 
@@ -578,7 +585,6 @@ const Categories = () => {
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
-                            {/* <button id="purchase">Buy Now</button> */}
                         </section>
                         <section className="imageSection">
 
@@ -589,7 +595,6 @@ const Categories = () => {
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
-                            {/* <button id="purchase">Buy Now</button> */}
                         </section>
                         <section className="imageSection">
 
@@ -600,13 +605,11 @@ const Categories = () => {
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
-                            {/* <button id="purchase">Buy Now</button> */}
                         </section>
                     </section>
                 </section>
                 <section className="categoriesHeading">
                     <p className="main">SHOP MOP CHAIN</p>
-                    {/* <p className="sub">CHUR | KANKAN | BALA | POLA</p> */}
                 </section>
                 <section className="categoriesBody">
                     <section className="slidePart">
@@ -619,8 +622,6 @@ const Categories = () => {
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
-                            {/* <button id="purchase">Buy Now</button> */}
-
                         </section>
                         <section className="imageSection">
 
@@ -631,7 +632,6 @@ const Categories = () => {
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
-                            {/* <button id="purchase">Buy Now</button> */}
                         </section>
                         <section className="imageSection">
 
@@ -642,7 +642,6 @@ const Categories = () => {
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
-                            {/* <button id="purchase">Buy Now</button> */}
                         </section>
                         <section className="imageSection">
 
@@ -653,13 +652,11 @@ const Categories = () => {
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
-                            {/* <button id="purchase">Buy Now</button> */}
                         </section>
                     </section>
                 </section>
                 <section className="categoriesHeading">
                     <p className="main">SHOP TIE CHAIN</p>
-                    {/* <p className="sub">CHUR | KANKAN | BALA | POLA</p> */}
                 </section>
                 <section className="categoriesBody">
                     <section className="slidePart">
@@ -672,8 +669,6 @@ const Categories = () => {
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
-                            {/* <button id="purchase">Buy Now</button> */}
-
                         </section>
                         <section className="imageSection">
 
@@ -684,7 +679,6 @@ const Categories = () => {
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
-                            {/* <button id="purchase">Buy Now</button> */}
                         </section>
                         <section className="imageSection">
 
@@ -695,7 +689,6 @@ const Categories = () => {
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
-                            {/* <button id="purchase">Buy Now</button> */}
                         </section>
                         <section className="imageSection">
 
@@ -706,13 +699,11 @@ const Categories = () => {
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
-                            {/* <button id="purchase">Buy Now</button> */}
                         </section>
                     </section>
                 </section>
                 <section className="categoriesHeading">
                     <p className="main">SHOP PENDANT</p>
-                    {/* <p className="sub">CHUR | KANKAN | BALA | POLA</p> */}
                 </section>
                 <section className="categoriesBody">
                     <section className="slidePart">
@@ -725,8 +716,6 @@ const Categories = () => {
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
-                            {/* <button id="purchase">Buy Now</button> */}
-
                         </section>
                         <section className="imageSection">
 
@@ -737,7 +726,6 @@ const Categories = () => {
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
-                            {/* <button id="purchase">Buy Now</button> */}
                         </section>
                         <section className="imageSection">
 
@@ -748,7 +736,6 @@ const Categories = () => {
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
-                            {/* <button id="purchase">Buy Now</button> */}
                         </section>
                         <section className="imageSection">
 
@@ -759,13 +746,11 @@ const Categories = () => {
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
-                            {/* <button id="purchase">Buy Now</button> */}
                         </section>
                     </section>
                 </section>
                 <section className="categoriesHeading">
                     <p className="main">SHOP RANIHAR</p>
-                    {/* <p className="sub">CHUR | KANKAN | BALA | POLA</p> */}
                 </section>
                 <section className="categoriesBody">
                     <section className="slidePart">
@@ -778,7 +763,6 @@ const Categories = () => {
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
-                            {/* <button id="purchase">Buy Now</button> */}
 
                         </section>
                         <section className="imageSection">
@@ -790,7 +774,6 @@ const Categories = () => {
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
-                            {/* <button id="purchase">Buy Now</button> */}
                         </section>
                         <section className="imageSection">
 
@@ -801,7 +784,6 @@ const Categories = () => {
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
-                            {/* <button id="purchase">Buy Now</button> */}
                         </section>
                         <section className="imageSection">
 
@@ -812,13 +794,11 @@ const Categories = () => {
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
-                            {/* <button id="purchase">Buy Now</button> */}
                         </section>
                     </section>
                 </section>
                 <section className="categoriesHeading">
                     <p className="main">BRACELET COLLECTIONS</p>
-                    {/* <p className="sub">CHUR | KANKAN | BALA | POLA</p> */}
                 </section>
                 <section className="categoriesBody">
                     <section className="slidePart">
@@ -831,7 +811,6 @@ const Categories = () => {
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
-                            {/* <button id="purchase">Buy Now</button> */}
 
                         </section>
                         <section className="imageSection">
@@ -843,7 +822,6 @@ const Categories = () => {
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
-                            {/* <button id="purchase">Buy Now</button> */}
                         </section>
                         <section className="imageSection">
 
@@ -854,7 +832,6 @@ const Categories = () => {
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
-                            {/* <button id="purchase">Buy Now</button> */}
                         </section>
                         <section className="imageSection">
 
@@ -865,10 +842,9 @@ const Categories = () => {
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
-                            {/* <button id="purchase">Buy Now</button> */}
                         </section>
                     </section>
-                </section>
+                </section> */}
             </section>
         </>
     )
