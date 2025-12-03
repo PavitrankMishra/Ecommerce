@@ -200,7 +200,7 @@ const Categories = () => {
                             <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
                             <span id="originalPrice">Rs.10200</span>
 
-                            <section>
+                            <section id="finalPrice">
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
@@ -210,7 +210,7 @@ const Categories = () => {
                             <img src={I1} className="jewelleryImage" />
                             <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
                             <span id="originalPrice">Rs.10200</span>
-                            <section>
+                            <section id="finalPrice">
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
@@ -220,7 +220,7 @@ const Categories = () => {
                             <img src={I1} className="jewelleryImage" />
                             <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
                             <span id="originalPrice">Rs.10200</span>
-                            <section>
+                            <section id="finalPrice">
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
@@ -230,7 +230,7 @@ const Categories = () => {
                             <img src={I1} className="jewelleryImage" />
                             <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
                             <span id="originalPrice">Rs.10200</span>
-                            <section>
+                            <section id="finalPrice">
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
@@ -248,7 +248,7 @@ const Categories = () => {
                             <img src={I1} className="jewelleryImage" />
                             <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
                             <span id="originalPrice">Rs.10200</span>
-                            <section>
+                            <section id="finalPrice">
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
@@ -258,7 +258,7 @@ const Categories = () => {
                             <img src={I1} className="jewelleryImage" />
                             <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
                             <span id="originalPrice">Rs.10200</span>
-                            <section>
+                            <section id="finalPrice">
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
@@ -268,7 +268,7 @@ const Categories = () => {
                             <img src={I1} className="jewelleryImage" />
                             <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
                             <span id="originalPrice">Rs.10200</span>
-                            <section>
+                            <section id="finalPrice">
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
@@ -278,7 +278,7 @@ const Categories = () => {
                             <img src={I1} className="jewelleryImage" />
                             <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
                             <span id="originalPrice">Rs.10200</span>
-                            <section>
+                            <section id="finalPrice">
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
@@ -297,7 +297,7 @@ const Categories = () => {
                             <img src={I1} className="jewelleryImage" />
                             <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
                             <span id="originalPrice">Rs.10200</span>
-                            <section>
+                            <section id="finalPrice">
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
@@ -309,7 +309,7 @@ const Categories = () => {
                             <img src={I1} className="jewelleryImage" />
                             <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
                             <span id="originalPrice">Rs.10200</span>
-                            <section>
+                            <section id="finalPrice">
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
@@ -320,7 +320,7 @@ const Categories = () => {
                             <img src={I1} className="jewelleryImage" />
                             <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
                             <span id="originalPrice">Rs.10200</span>
-                            <section>
+                            <section id="finalPrice">
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
@@ -331,7 +331,7 @@ const Categories = () => {
                             <img src={I1} className="jewelleryImage" />
                             <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
                             <span id="originalPrice">Rs.10200</span>
-                            <section>
+                            <section id="finalPrice">
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
@@ -350,7 +350,7 @@ const Categories = () => {
                             <img src={I1} className="jewelleryImage" />
                             <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
                             <span id="originalPrice">Rs.10200</span>
-                            <section>
+                            <section id="finalPrice">
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
@@ -362,7 +362,7 @@ const Categories = () => {
                             <img src={I1} className="jewelleryImage" />
                             <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
                             <span id="originalPrice">Rs.10200</span>
-                            <section>
+                            <section id="finalPrice">
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
@@ -373,7 +373,7 @@ const Categories = () => {
                             <img src={I1} className="jewelleryImage" />
                             <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
                             <span id="originalPrice">Rs.10200</span>
-                            <section>
+                            <section id="finalPrice">
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
@@ -384,7 +384,7 @@ const Categories = () => {
                             <img src={I1} className="jewelleryImage" />
                             <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
                             <span id="originalPrice">Rs.10200</span>
-                            <section>
+                            <section id="finalPrice">
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
@@ -403,7 +403,7 @@ const Categories = () => {
                             <img src={I1} className="jewelleryImage" />
                             <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
                             <span id="originalPrice">Rs.10200</span>
-                            <section>
+                            <section id="finalPrice">
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
@@ -415,7 +415,7 @@ const Categories = () => {
                             <img src={I1} className="jewelleryImage" />
                             <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
                             <span id="originalPrice">Rs.10200</span>
-                            <section>
+                            <section id="finalPrice">
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
@@ -426,7 +426,7 @@ const Categories = () => {
                             <img src={I1} className="jewelleryImage" />
                             <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
                             <span id="originalPrice">Rs.10200</span>
-                            <section>
+                            <section id="finalPrice">
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
@@ -437,7 +437,7 @@ const Categories = () => {
                             <img src={I1} className="jewelleryImage" />
                             <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
                             <span id="originalPrice">Rs.10200</span>
-                            <section>
+                            <section id="finalPrice">
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
@@ -456,7 +456,7 @@ const Categories = () => {
                             <img src={I1} className="jewelleryImage" />
                             <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
                             <span id="originalPrice">Rs.10200</span>
-                            <section>
+                            <section id="finalPrice">
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
@@ -468,7 +468,7 @@ const Categories = () => {
                             <img src={I1} className="jewelleryImage" />
                             <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
                             <span id="originalPrice">Rs.10200</span>
-                            <section>
+                            <section id="finalPrice">
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
@@ -479,7 +479,7 @@ const Categories = () => {
                             <img src={I1} className="jewelleryImage" />
                             <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
                             <span id="originalPrice">Rs.10200</span>
-                            <section>
+                            <section id="finalPrice">
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
@@ -490,7 +490,7 @@ const Categories = () => {
                             <img src={I1} className="jewelleryImage" />
                             <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
                             <span id="originalPrice">Rs.10200</span>
-                            <section>
+                            <section id="finalPrice">
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
@@ -509,7 +509,7 @@ const Categories = () => {
                             <img src={I1} className="jewelleryImage" />
                             <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
                             <span id="originalPrice">Rs.10200</span>
-                            <section>
+                            <section id="finalPrice">
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
@@ -521,7 +521,7 @@ const Categories = () => {
                             <img src={I1} className="jewelleryImage" />
                             <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
                             <span id="originalPrice">Rs.10200</span>
-                            <section>
+                            <section id="finalPrice">
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
@@ -532,7 +532,7 @@ const Categories = () => {
                             <img src={I1} className="jewelleryImage" />
                             <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
                             <span id="originalPrice">Rs.10200</span>
-                            <section>
+                            <section id="finalPrice">
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
@@ -543,7 +543,7 @@ const Categories = () => {
                             <img src={I1} className="jewelleryImage" />
                             <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
                             <span id="originalPrice">Rs.10200</span>
-                            <section>
+                            <section id="finalPrice">
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
@@ -562,7 +562,7 @@ const Categories = () => {
                             <img src={I1} className="jewelleryImage" />
                             <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
                             <span id="originalPrice">Rs.10200</span>
-                            <section>
+                            <section id="finalPrice">
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
@@ -574,7 +574,7 @@ const Categories = () => {
                             <img src={I1} className="jewelleryImage" />
                             <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
                             <span id="originalPrice">Rs.10200</span>
-                            <section>
+                            <section id="finalPrice">
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
@@ -585,7 +585,7 @@ const Categories = () => {
                             <img src={I1} className="jewelleryImage" />
                             <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
                             <span id="originalPrice">Rs.10200</span>
-                            <section>
+                            <section id="finalPrice">
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
@@ -596,7 +596,7 @@ const Categories = () => {
                             <img src={I1} className="jewelleryImage" />
                             <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
                             <span id="originalPrice">Rs.10200</span>
-                            <section>
+                            <section id="finalPrice">
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
@@ -615,7 +615,7 @@ const Categories = () => {
                             <img src={I1} className="jewelleryImage" />
                             <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
                             <span id="originalPrice">Rs.10200</span>
-                            <section>
+                            <section id="finalPrice">
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
@@ -627,7 +627,7 @@ const Categories = () => {
                             <img src={I1} className="jewelleryImage" />
                             <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
                             <span id="originalPrice">Rs.10200</span>
-                            <section>
+                            <section id="finalPrice">
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
@@ -638,7 +638,7 @@ const Categories = () => {
                             <img src={I1} className="jewelleryImage" />
                             <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
                             <span id="originalPrice">Rs.10200</span>
-                            <section>
+                            <section id="finalPrice">
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
@@ -649,7 +649,7 @@ const Categories = () => {
                             <img src={I1} className="jewelleryImage" />
                             <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
                             <span id="originalPrice">Rs.10200</span>
-                            <section>
+                            <section id="finalPrice">
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
@@ -668,7 +668,7 @@ const Categories = () => {
                             <img src={I1} className="jewelleryImage" />
                             <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
                             <span id="originalPrice">Rs.10200</span>
-                            <section>
+                            <section id="finalPrice">
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
@@ -680,7 +680,7 @@ const Categories = () => {
                             <img src={I1} className="jewelleryImage" />
                             <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
                             <span id="originalPrice">Rs.10200</span>
-                            <section>
+                            <section id="finalPrice">
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
@@ -691,7 +691,7 @@ const Categories = () => {
                             <img src={I1} className="jewelleryImage" />
                             <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
                             <span id="originalPrice">Rs.10200</span>
-                            <section>
+                            <section id="finalPrice">
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
@@ -702,7 +702,7 @@ const Categories = () => {
                             <img src={I1} className="jewelleryImage" />
                             <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
                             <span id="originalPrice">Rs.10200</span>
-                            <section>
+                            <section id="finalPrice">
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
@@ -721,7 +721,7 @@ const Categories = () => {
                             <img src={I1} className="jewelleryImage" />
                             <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
                             <span id="originalPrice">Rs.10200</span>
-                            <section>
+                            <section id="finalPrice">
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
@@ -733,7 +733,7 @@ const Categories = () => {
                             <img src={I1} className="jewelleryImage" />
                             <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
                             <span id="originalPrice">Rs.10200</span>
-                            <section>
+                            <section id="finalPrice">
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
@@ -744,7 +744,7 @@ const Categories = () => {
                             <img src={I1} className="jewelleryImage" />
                             <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
                             <span id="originalPrice">Rs.10200</span>
-                            <section>
+                            <section id="finalPrice">
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
@@ -755,7 +755,7 @@ const Categories = () => {
                             <img src={I1} className="jewelleryImage" />
                             <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
                             <span id="originalPrice">Rs.10200</span>
-                            <section>
+                            <section id="finalPrice">
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
@@ -774,7 +774,7 @@ const Categories = () => {
                             <img src={I1} className="jewelleryImage" />
                             <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
                             <span id="originalPrice">Rs.10200</span>
-                            <section>
+                            <section id="finalPrice">
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
@@ -786,7 +786,7 @@ const Categories = () => {
                             <img src={I1} className="jewelleryImage" />
                             <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
                             <span id="originalPrice">Rs.10200</span>
-                            <section>
+                            <section id="finalPrice">
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
@@ -797,7 +797,7 @@ const Categories = () => {
                             <img src={I1} className="jewelleryImage" />
                             <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
                             <span id="originalPrice">Rs.10200</span>
-                            <section>
+                            <section id="finalPrice">
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
@@ -808,7 +808,7 @@ const Categories = () => {
                             <img src={I1} className="jewelleryImage" />
                             <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
                             <span id="originalPrice">Rs.10200</span>
-                            <section>
+                            <section id="finalPrice">
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
@@ -827,7 +827,7 @@ const Categories = () => {
                             <img src={I1} className="jewelleryImage" />
                             <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
                             <span id="originalPrice">Rs.10200</span>
-                            <section>
+                            <section id="finalPrice">
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
@@ -839,7 +839,7 @@ const Categories = () => {
                             <img src={I1} className="jewelleryImage" />
                             <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
                             <span id="originalPrice">Rs.10200</span>
-                            <section>
+                            <section id="finalPrice">
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
@@ -850,7 +850,7 @@ const Categories = () => {
                             <img src={I1} className="jewelleryImage" />
                             <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
                             <span id="originalPrice">Rs.10200</span>
-                            <section>
+                            <section id="finalPrice">
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>
@@ -861,7 +861,7 @@ const Categories = () => {
                             <img src={I1} className="jewelleryImage" />
                             <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
                             <span id="originalPrice">Rs.10200</span>
-                            <section>
+                            <section id="finalPrice">
                                 <span id="discountPrice">Rs.6000</span>
                                 <span id="percentageDiscount">70% Off</span>
                             </section>

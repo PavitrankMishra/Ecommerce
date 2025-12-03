@@ -106,7 +106,8 @@
   height: 63%;
 }
 
-.categoriesContainer .categoriesBody .slidePart .videoSection button, .categoriesContainer .categoriesBody .slidePart .imageSection button {
+.categoriesContainer .categoriesBody .slidePart .videoSection button,
+.categoriesContainer .categoriesBody .slidePart .imageSection button {
   background: transparent;
   border: none;
   outline: none;
@@ -144,7 +145,8 @@
   height: 100%;
 }
 
-.categoriesContainer .categoriesBody .slidePart .videoSection span, .categoriesContainer .categoriesBody .slidePart .imageSection span {
+.categoriesContainer .categoriesBody .slidePart .videoSection span,
+.categoriesContainer .categoriesBody .slidePart .imageSection span {
   text-wrap: wrap;
   width: 100%;
   text-align: center;
@@ -153,13 +155,15 @@
   font-size: 12px;
 }
 
-.categoriesContainer .categoriesBody .slidePart .videoSection #originalPrice, .categoriesContainer .categoriesBody .slidePart .imageSection #originalPrice {
+.categoriesContainer .categoriesBody .slidePart .videoSection #originalPrice,
+.categoriesContainer .categoriesBody .slidePart .imageSection #originalPrice {
   text-decoration: line-through;
   font-size: 14px;
   text-decoration-color: red;
 }
 
-.categoriesContainer .categoriesBody .slidePart .videoSection #discountPrice, .categoriesContainer .categoriesBody .slidePart .imageSection #discountPrice {
+.categoriesContainer .categoriesBody .slidePart .videoSection #discountPrice,
+.categoriesContainer .categoriesBody .slidePart .imageSection #discountPrice {
   padding: 6px;
   width: auto;
   text-align: center;
@@ -169,8 +173,16 @@
   color: red;
 }
 
-
-.categoriesContainer .categoriesBody .slidePart .videoSection #percentageDiscount, .categoriesContainer .categoriesBody .slidePart .imageSection #percentageDiscount {
+.categoriesContainer
+  .categoriesBody
+  .slidePart
+  .videoSection
+  #percentageDiscount,
+.categoriesContainer
+  .categoriesBody
+  .slidePart
+  .imageSection
+  #percentageDiscount {
   background: red;
   color: #fff;
   padding: 8px 12px;
@@ -216,19 +228,54 @@
   .categoriesContainer .categoriesBody .slidePart {
     width: 100%;
     gap: 20px;
-  }
-  /* .categoriesContainer .categoriesBody .slidePart .videoSection {
-    width: 50%;
-    height: 100%;
-  } */
-
-  .categoriesContainer .categoriesBody .slidePart {
     overflow-x: auto;
     scroll-behavior: smooth;
     scrollbar-width: none;
     justify-content: flex-start;
   }
-}
 
-@keyframes slideIn {
+  .categoriesContainer .categoriesBody .slidePart .imageSection {
+    width: 140px;
+    height: 300px;
+    text-align: left;
+  }
+
+  .categoriesContainer .categoriesBody .slidePart .imageSection span {
+    font-size: 10px;
+    text-align: left;
+  }
+
+  .categoriesContainer .categoriesBody .slidePart .imageSection #originalPrice {
+    font-size: 12px;
+  }
+
+  .categoriesContainer .categoriesBody .slidePart .imageSection #discountPrice {
+    font-size: 12px;
+    text-align: left;
+    padding-left: 0;
+  }
+
+  .categoriesContainer
+    .categoriesBody
+    .slidePart
+    .imageSection
+    #percentageDiscount {
+    background: red;
+    color: #fff;
+    font-weight: 500;
+    font-size: 8px;
+    padding: 0;
+    text-align: center;
+  }
+
+    .categoriesContainer
+    .categoriesBody
+    .slidePart
+    .imageSection
+    #finalPrice {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+    }
 }
