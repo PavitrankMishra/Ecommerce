@@ -88,20 +88,22 @@
   flex-direction: column;
   gap: 6px;
   transition: all 0.5s ease-in-out;
+  width: 230px;
 }
 
 .categoriesContainer .categoriesBody .slidePart .imageSection {
-  width: 250px;
-  height: 470px;
+  width: 175px;
+  height: 320px;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
+  aspect-ratio: 2 / 3;
 }
 
 .categoriesContainer .categoriesBody .slidePart .imageSection img {
   width: 100%;
-  height: 70%;
+  height: 63%;
 }
 
 .categoriesContainer .categoriesBody .slidePart .videoSection button, .categoriesContainer .categoriesBody .slidePart .imageSection button {
@@ -144,7 +146,7 @@
 
 .categoriesContainer .categoriesBody .slidePart .videoSection span, .categoriesContainer .categoriesBody .slidePart .imageSection span {
   text-wrap: wrap;
-  width: 230px;
+  width: 100%;
   text-align: center;
   line-height: 16px;
   letter-spacing: 1.2px;
