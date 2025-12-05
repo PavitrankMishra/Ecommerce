@@ -377,6 +377,8 @@ const Categories = () => {
                     </section>
                 </section>
 
+                <section className="categoriesHeading">
+                    <span className="main">OUR COLLECTION</span></section>
                 <section className="mainLayout">
                     <section className="gridLayout">
                         <section className="gridItem">
@@ -384,14 +386,14 @@ const Categories = () => {
                         </section>
                         <section className="gridItem special">
                             <section className="categoryContent">
-                                <span className="heading">Elegant Necklace Collection</span>
+                                <span className="heading">Elegant Necklace Collections</span>
                                 <span className="description">From traditional to modern designs, find the perfect piece for every occasion.</span>
                                 <button><span>Explore<FontAwesomeIcon icon={faArrowRight} /></span></button>
                             </section>
                         </section>
                         <section className="gridItem special">
                             <section className="categoryContent">
-                                <span className="heading">Stylish Choker Collection</span>
+                                <span className="heading">Stylish Choker Collections</span>
                                 <span className="description">Perfect for parties, casual outings, and special occasions.</span>
                                 <button><span>Explore<FontAwesomeIcon icon={faArrowRight} /></span></button>
                             </section>
@@ -404,7 +406,7 @@ const Categories = () => {
                         </section>
                         <section className="gridItem special">
                             <section className="categoryContent">
-                                <span className="heading">Dangle Earring Collection</span>
+                                <span className="heading">Dangle Earring Collections</span>
                                 <span className="description">Explore our curated range of premium earrings designed to suit every mood and moment.</span>
                                 <button><span>Explore<FontAwesomeIcon icon={faArrowRight} /></span></button>
                             </section>
@@ -419,8 +421,69 @@ const Categories = () => {
                         <section className="gridItem">
                             <img src={I1} className="itemImage"></img>
                         </section>
+                        <section className="gridItem">
+                            <img src={I1} className="itemImage"></img>
+                        </section>
+                        <section className="gridItem special">
+                            <section className="categoryContent">
+                                <span className="heading">Exquisite Mop Chain Collections</span>
+                                <span className="description">From minimal patterns to intricate designs, find the perfect chain to complement your ethnic and everyday outfits.</span>
+                                <button><span>Explore<FontAwesomeIcon icon={faArrowRight} /></span></button>
+                            </section>
+                        </section>
+                        <section className="gridItem special">
+                            <section className="categoryContent">
+                                <span className="heading">Premium Tie Chains Collections</span>
+                                <span className="description">Discover beautifully designed Tie Chains known for their smooth finish, elegant texture, and timeless appeal. Ideal for gifting or adding a touch of sophistication to your everyday style.</span>
+                                <button><span>Explore<FontAwesomeIcon icon={faArrowRight} /></span></button>
+                            </section>
+                        </section>
+                        <section className="gridItem">
+                            <img src={I1} className="itemImage"></img>
+                        </section>
+                        <section className="gridItem">
+                            <img src={I1} className="itemImage"></img>
+                        </section>
+                        <section className="gridItem special">
+                            <section className="categoryContent">
+                                <span className="heading">Beautiful Pendants Collections</span>
+                                <span className="description">Choose from a wide selection of chic pendants that pair effortlessly with any chain—your perfect accessory awaits.</span>
+                                <button><span>Explore<FontAwesomeIcon icon={faArrowRight} /></span></button>
+                            </section>
+                        </section>
+                        <section className="gridItem special">
+                            <section className="categoryContent">
+                                <span className="heading">Royal Ranihar Collections</span>
+                                <span className="description">Explore our luxurious range of Ranihars featuring stunning craftsmanship, timeless patterns, and rich cultural elegance.</span>
+                                <button><span>Explore<FontAwesomeIcon icon={faArrowRight} /></span></button>
+                            </section>
+                        </section>
+                        <section className="gridItem">
+                            <img src={I1} className="itemImage"></img>
+                        </section>
+                        <section className="gridItem">
+                            <img src={I1} className="itemImage"></img>
+                        </section>
+                        <section className="gridItem special">
+                            <section className="categoryContent">
+                                <span className="heading">Royal Ranihar Collections</span>
+                                <span className="description">Explore our luxurious range of Ranihars featuring stunning craftsmanship, timeless patterns, and rich cultural elegance.</span>
+                                <button><span>Explore<FontAwesomeIcon icon={faArrowRight} /></span></button>
+                            </section>
+                        </section>
+                        <section className="gridItem special">
+                            <section className="categoryContent">
+                                <span className="heading">Modern Bracelet Collections</span>
+                                <span className="description">Explore our luxurious range of Ranihars featuring stunning craftsmanship, timeless patterns, and rich cultural elegance.</span>
+                                <button><span>Explore<FontAwesomeIcon icon={faArrowRight} /></span></button>
+                            </section>
+                        </section>
+                        <section className="gridItem">
+                            <img src={I1} className="itemImage"></img>
+                        </section>
                     </section>
                 </section>
+
                 {/* <section className="categoriesHeading">
                     <p className="main">SHOP NECKLACE SETS</p>
                 </section>

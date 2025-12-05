@@ -203,7 +203,6 @@
   align-items: center;
   justify-content: center;
   background: linear-gradient(to top, #fbe9cb, rgb(255, 255, 255));
-  /* border: 2px solid red; */
 }
 .categoriesContainer .mainLayout .gridLayout {
   display: grid;
@@ -215,8 +214,6 @@
   padding: 5px;
   margin-bottom: 20px;
   width: 80%;
-  margin-top: 40px;
-  /* border: 2px solid green; */
 }
 
 .categoriesContainer .mainLayout .gridLayout .gridItem {
@@ -248,10 +245,10 @@
   justify-content: center;
   gap: 5px;
   cursor: pointer;
-
-  position: relative; /* IMPORTANT */
-  overflow: hidden; /* IMPORTANT */
-  z-index: 1; /* Keep text on top */
+  transition: all 0.5s ease-in-out;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
 }
 
 .categoriesContainer .gridLayout .gridItem .categoryContent button::before {
