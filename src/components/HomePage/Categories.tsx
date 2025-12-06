@@ -130,7 +130,7 @@ const Categories = () => {
     return (
         <>
             <section className="categoriesContainer">
-                <section className="categoriesHeading">
+                {/* <section className="categoriesHeading">
                     <p className="main">SHOP 22K and 24K GOLD-PLATED COLLECTION</p>
                     <p className="sub">6 MONTHS WARRANTY | COD AVAILABLE</p>
                 </section>
@@ -142,7 +142,7 @@ const Categories = () => {
                         <img src="https://www.brishni.com/cdn/shop/files/Untitled_design_36_1400x.png?v=1655462217" alt="Jewellery" className="right1" />
                         <img src="https://www.brishni.com/cdn/shop/files/Untitled_design_36_1400x.png?v=1655462217" alt="Jewellery" className="right2" />
                     </section>
-                </section>
+                </section> */}
                 <section className="categoriesHeading">
                     <p className="main">BEST SELLERS</p>
                 </section>
@@ -377,6 +377,9 @@ const Categories = () => {
                     </section>
                 </section>
 
+                {/********************************************************************************************* */}
+
+
                 <section className="categoriesHeading">
                     <span className="main">OUR COLLECTION</span></section>
                 <section className="mainLayout">
@@ -431,6 +434,60 @@ const Categories = () => {
                                 <button><span>Explore<FontAwesomeIcon icon={faArrowRight} /></span></button>
                             </section>
                         </section>
+                    </section>
+                </section>
+
+                {/***********************************************************/}
+                <section className="categoriesHeading">
+                    <p className="main">OUR COLLECTIONS</p>
+                </section>
+                <section className="categoriesBody">
+                    <section className="slidePart">
+                        <section className="videoSection">
+                            <video src={V1} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef}></video>
+                            <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
+                            <span id="originalPrice">Rs.10200</span>
+                            <section>
+                                <span id="discountPrice">Rs.6000</span>
+                                <span id="percentageDiscount">70% Off</span>
+                            </section>
+                            <button id="purchase">Buy Now</button>
+                        </section>
+                        <section className="videoSection">
+                            <video src={V2} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef2}></video>
+                            <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
+                            <span id="originalPrice">Rs.10200</span>
+                            <section>
+                                <span id="discountPrice">Rs.6000</span>
+                                <span id="percentageDiscount">70% Off</span>
+                            </section>
+                            <button id="purchase">Buy Now</button>
+                        </section>
+                        <section className="videoSection">
+                            <video src={V1} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef3}></video>
+                            <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
+                            <span id="originalPrice">Rs.10200</span>
+                            <section>
+                                <span id="discountPrice">Rs.6000</span>
+                                <span id="percentageDiscount">70% Off</span>
+                            </section>
+                            <button id="purchase">Buy Now</button>
+                        </section>
+                        <section className="videoSection">
+                            <video src={V1} autoPlay loop muted playsInline className="reelsVideo" ref={videoRef4}></video>
+                            <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
+                            <span id="originalPrice">Rs.10200</span>
+                            <section>
+                                <span id="discountPrice">Rs.6000</span>
+                                <span id="percentageDiscount">70% Off</span>
+                            </section>
+                            <button id="purchase">
+                                Buy Now</button>
+                        </section>
+                    </section>
+                </section>
+                <section className="mainLayout">
+                    <section className="gridLayout">
                         <section className="gridItem special">
                             <section className="categoryContent">
                                 <span className="heading">Premium Tie Chains Collections</span>
@@ -483,431 +540,6 @@ const Categories = () => {
                         </section>
                     </section>
                 </section>
-
-                {/* <section className="categoriesHeading">
-                    <p className="main">SHOP NECKLACE SETS</p>
-                </section>
-                <section className="categoriesBody">
-                    <section className="slidePart">
-                        <section className="imageSection">
-
-                            <img src={I1} className="jewelleryImage" />
-                            <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
-                            <span id="originalPrice">Rs.10200</span>
-                            <section id="finalPrice">
-                                <span id="discountPrice">Rs.6000</span>
-                                <span id="percentageDiscount">70% Off</span>
-                            </section>
-                        </section>
-                        <section className="imageSection">
-                            <img src={I1} className="jewelleryImage" />
-                            <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
-                            <span id="originalPrice">Rs.10200</span>
-                            <section id="finalPrice">
-                                <span id="discountPrice">Rs.6000</span>
-                                <span id="percentageDiscount">70% Off</span>
-                            </section>
-                        </section>
-                        <section className="imageSection">
-
-                            <img src={I1} className="jewelleryImage" />
-                            <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
-                            <span id="originalPrice">Rs.10200</span>
-                            <section id="finalPrice">
-                                <span id="discountPrice">Rs.6000</span>
-                                <span id="percentageDiscount">70% Off</span>
-                            </section>
-                        </section>
-                        <section className="imageSection">
-
-                            <img src={I1} className="jewelleryImage" />
-                            <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
-                            <span id="originalPrice">Rs.10200</span>
-                            <section id="finalPrice">
-                                <span id="discountPrice">Rs.6000</span>
-                                <span id="percentageDiscount">70% Off</span>
-                            </section>
-                        </section>
-                    </section>
-                </section>
-                <section className="categoriesHeading">
-                    <p className="main">SHOP CHOKERS</p>
-                </section>
-                <section className="categoriesBody">
-                    <section className="slidePart">
-                        <section className="imageSection">
-
-                            <img src={I1} className="jewelleryImage" />
-                            <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
-                            <span id="originalPrice">Rs.10200</span>
-                            <section id="finalPrice">
-                                <span id="discountPrice">Rs.6000</span>
-                                <span id="percentageDiscount">70% Off</span>
-                            </section>
-                        </section>
-                        <section className="imageSection">
-
-                            <img src={I1} className="jewelleryImage" />
-                            <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
-                            <span id="originalPrice">Rs.10200</span>
-                            <section id="finalPrice">
-                                <span id="discountPrice">Rs.6000</span>
-                                <span id="percentageDiscount">70% Off</span>
-                            </section>
-                        </section>
-                        <section className="imageSection">
-
-                            <img src={I1} className="jewelleryImage" />
-                            <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
-                            <span id="originalPrice">Rs.10200</span>
-                            <section id="finalPrice">
-                                <span id="discountPrice">Rs.6000</span>
-                                <span id="percentageDiscount">70% Off</span>
-                            </section>
-                        </section>
-                        <section className="imageSection">
-
-                            <img src={I1} className="jewelleryImage" />
-                            <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
-                            <span id="originalPrice">Rs.10200</span>
-                            <section id="finalPrice">
-                                <span id="discountPrice">Rs.6000</span>
-                                <span id="percentageDiscount">70% Off</span>
-                            </section>
-                        </section>
-                    </section>
-                </section>
-                <section className="categoriesHeading">
-                    <p className="main">SHOP EARRINGS</p>
-                </section>
-                <section className="categoriesBody">
-                    <section className="slidePart">
-                        <section className="imageSection">
-
-                            <img src={I1} className="jewelleryImage" />
-                            <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
-                            <span id="originalPrice">Rs.10200</span>
-                            <section id="finalPrice">
-                                <span id="discountPrice">Rs.6000</span>
-                                <span id="percentageDiscount">70% Off</span>
-                            </section>
-                        </section>
-                        <section className="imageSection">
-
-                            <img src={I1} className="jewelleryImage" />
-                            <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
-                            <span id="originalPrice">Rs.10200</span>
-                            <section id="finalPrice">
-                                <span id="discountPrice">Rs.6000</span>
-                                <span id="percentageDiscount">70% Off</span>
-                            </section>
-                        </section>
-                        <section className="imageSection">
-
-                            <img src={I1} className="jewelleryImage" />
-                            <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
-                            <span id="originalPrice">Rs.10200</span>
-                            <section id="finalPrice">
-                                <span id="discountPrice">Rs.6000</span>
-                                <span id="percentageDiscount">70% Off</span>
-                            </section>
-                        </section>
-                        <section className="imageSection">
-
-                            <img src={I1} className="jewelleryImage" />
-                            <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
-                            <span id="originalPrice">Rs.10200</span>
-                            <section id="finalPrice">
-                                <span id="discountPrice">Rs.6000</span>
-                                <span id="percentageDiscount">70% Off</span>
-                            </section>
-                        </section>
-                    </section>
-                </section>
-                <section className="categoriesHeading">
-                    <p className="main">SHOP BANGLES</p>
-                </section>
-                <section className="categoriesBody">
-                    <section className="slidePart">
-                        <section className="imageSection">
-
-                            <img src={I1} className="jewelleryImage" />
-                            <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
-                            <span id="originalPrice">Rs.10200</span>
-                            <section id="finalPrice">
-                                <span id="discountPrice">Rs.6000</span>
-                                <span id="percentageDiscount">70% Off</span>
-                            </section>
-                        </section>
-                        <section className="imageSection">
-
-                            <img src={I1} className="jewelleryImage" />
-                            <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
-                            <span id="originalPrice">Rs.10200</span>
-                            <section id="finalPrice">
-                                <span id="discountPrice">Rs.6000</span>
-                                <span id="percentageDiscount">70% Off</span>
-                            </section>
-                        </section>
-                        <section className="imageSection">
-
-                            <img src={I1} className="jewelleryImage" />
-                            <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
-                            <span id="originalPrice">Rs.10200</span>
-                            <section id="finalPrice">
-                                <span id="discountPrice">Rs.6000</span>
-                                <span id="percentageDiscount">70% Off</span>
-                            </section>
-                        </section>
-                        <section className="imageSection">
-
-                            <img src={I1} className="jewelleryImage" />
-                            <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
-                            <span id="originalPrice">Rs.10200</span>
-                            <section id="finalPrice">
-                                <span id="discountPrice">Rs.6000</span>
-                                <span id="percentageDiscount">70% Off</span>
-                            </section>
-                        </section>
-                    </section>
-                </section>
-                <section className="categoriesHeading">
-                    <p className="main">SHOP MOP CHAIN</p>
-                </section>
-                <section className="categoriesBody">
-                    <section className="slidePart">
-                        <section className="imageSection">
-
-                            <img src={I1} className="jewelleryImage" />
-                            <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
-                            <span id="originalPrice">Rs.10200</span>
-                            <section id="finalPrice">
-                                <span id="discountPrice">Rs.6000</span>
-                                <span id="percentageDiscount">70% Off</span>
-                            </section>
-                        </section>
-                        <section className="imageSection">
-
-                            <img src={I1} className="jewelleryImage" />
-                            <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
-                            <span id="originalPrice">Rs.10200</span>
-                            <section id="finalPrice">
-                                <span id="discountPrice">Rs.6000</span>
-                                <span id="percentageDiscount">70% Off</span>
-                            </section>
-                        </section>
-                        <section className="imageSection">
-
-                            <img src={I1} className="jewelleryImage" />
-                            <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
-                            <span id="originalPrice">Rs.10200</span>
-                            <section id="finalPrice">
-                                <span id="discountPrice">Rs.6000</span>
-                                <span id="percentageDiscount">70% Off</span>
-                            </section>
-                        </section>
-                        <section className="imageSection">
-
-                            <img src={I1} className="jewelleryImage" />
-                            <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
-                            <span id="originalPrice">Rs.10200</span>
-                            <section id="finalPrice">
-                                <span id="discountPrice">Rs.6000</span>
-                                <span id="percentageDiscount">70% Off</span>
-                            </section>
-                        </section>
-                    </section>
-                </section>
-                <section className="categoriesHeading">
-                    <p className="main">SHOP TIE CHAIN</p>
-                </section>
-                <section className="categoriesBody">
-                    <section className="slidePart">
-                        <section className="imageSection">
-
-                            <img src={I1} className="jewelleryImage" />
-                            <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
-                            <span id="originalPrice">Rs.10200</span>
-                            <section id="finalPrice">
-                                <span id="discountPrice">Rs.6000</span>
-                                <span id="percentageDiscount">70% Off</span>
-                            </section>
-                        </section>
-                        <section className="imageSection">
-
-                            <img src={I1} className="jewelleryImage" />
-                            <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
-                            <span id="originalPrice">Rs.10200</span>
-                            <section id="finalPrice">
-                                <span id="discountPrice">Rs.6000</span>
-                                <span id="percentageDiscount">70% Off</span>
-                            </section>
-                        </section>
-                        <section className="imageSection">
-
-                            <img src={I1} className="jewelleryImage" />
-                            <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
-                            <span id="originalPrice">Rs.10200</span>
-                            <section id="finalPrice">
-                                <span id="discountPrice">Rs.6000</span>
-                                <span id="percentageDiscount">70% Off</span>
-                            </section>
-                        </section>
-                        <section className="imageSection">
-
-                            <img src={I1} className="jewelleryImage" />
-                            <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
-                            <span id="originalPrice">Rs.10200</span>
-                            <section id="finalPrice">
-                                <span id="discountPrice">Rs.6000</span>
-                                <span id="percentageDiscount">70% Off</span>
-                            </section>
-                        </section>
-                    </section>
-                </section>
-                <section className="categoriesHeading">
-                    <p className="main">SHOP PENDANT</p>
-                </section>
-                <section className="categoriesBody">
-                    <section className="slidePart">
-                        <section className="imageSection">
-
-                            <img src={I1} className="jewelleryImage" />
-                            <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
-                            <span id="originalPrice">Rs.10200</span>
-                            <section id="finalPrice">
-                                <span id="discountPrice">Rs.6000</span>
-                                <span id="percentageDiscount">70% Off</span>
-                            </section>
-                        </section>
-                        <section className="imageSection">
-
-                            <img src={I1} className="jewelleryImage" />
-                            <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
-                            <span id="originalPrice">Rs.10200</span>
-                            <section id="finalPrice">
-                                <span id="discountPrice">Rs.6000</span>
-                                <span id="percentageDiscount">70% Off</span>
-                            </section>
-                        </section>
-                        <section className="imageSection">
-
-                            <img src={I1} className="jewelleryImage" />
-                            <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
-                            <span id="originalPrice">Rs.10200</span>
-                            <section id="finalPrice">
-                                <span id="discountPrice">Rs.6000</span>
-                                <span id="percentageDiscount">70% Off</span>
-                            </section>
-                        </section>
-                        <section className="imageSection">
-
-                            <img src={I1} className="jewelleryImage" />
-                            <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
-                            <span id="originalPrice">Rs.10200</span>
-                            <section id="finalPrice">
-                                <span id="discountPrice">Rs.6000</span>
-                                <span id="percentageDiscount">70% Off</span>
-                            </section>
-                        </section>
-                    </section>
-                </section>
-                <section className="categoriesHeading">
-                    <p className="main">SHOP RANIHAR</p>
-                </section>
-                <section className="categoriesBody">
-                    <section className="slidePart">
-                        <section className="imageSection">
-
-                            <img src={I1} className="jewelleryImage" />
-                            <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
-                            <span id="originalPrice">Rs.10200</span>
-                            <section id="finalPrice">
-                                <span id="discountPrice">Rs.6000</span>
-                                <span id="percentageDiscount">70% Off</span>
-                            </section>
-
-                        </section>
-                        <section className="imageSection">
-
-                            <img src={I1} className="jewelleryImage" />
-                            <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
-                            <span id="originalPrice">Rs.10200</span>
-                            <section id="finalPrice">
-                                <span id="discountPrice">Rs.6000</span>
-                                <span id="percentageDiscount">70% Off</span>
-                            </section>
-                        </section>
-                        <section className="imageSection">
-
-                            <img src={I1} className="jewelleryImage" />
-                            <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
-                            <span id="originalPrice">Rs.10200</span>
-                            <section id="finalPrice">
-                                <span id="discountPrice">Rs.6000</span>
-                                <span id="percentageDiscount">70% Off</span>
-                            </section>
-                        </section>
-                        <section className="imageSection">
-
-                            <img src={I1} className="jewelleryImage" />
-                            <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
-                            <span id="originalPrice">Rs.10200</span>
-                            <section id="finalPrice">
-                                <span id="discountPrice">Rs.6000</span>
-                                <span id="percentageDiscount">70% Off</span>
-                            </section>
-                        </section>
-                    </section>
-                </section>
-                <section className="categoriesHeading">
-                    <p className="main">BRACELET COLLECTIONS</p>
-                </section>
-                <section className="categoriesBody">
-                    <section className="slidePart">
-                        <section className="imageSection">
-
-                            <img src={I1} className="jewelleryImage" />
-                            <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
-                            <span id="originalPrice">Rs.10200</span>
-                            <section id="finalPrice">
-                                <span id="discountPrice">Rs.6000</span>
-                                <span id="percentageDiscount">70% Off</span>
-                            </section>
-
-                        </section>
-                        <section className="imageSection">
-
-                            <img src={I1} className="jewelleryImage" />
-                            <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
-                            <span id="originalPrice">Rs.10200</span>
-                            <section id="finalPrice">
-                                <span id="discountPrice">Rs.6000</span>
-                                <span id="percentageDiscount">70% Off</span>
-                            </section>
-                        </section>
-                        <section className="imageSection">
-
-                            <img src={I1} className="jewelleryImage" />
-                            <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
-                            <span id="originalPrice">Rs.10200</span>
-                            <section id="finalPrice">
-                                <span id="discountPrice">Rs.6000</span>
-                                <span id="percentageDiscount">70% Off</span>
-                            </section>
-                        </section>
-                        <section className="imageSection">
-
-                            <img src={I1} className="jewelleryImage" />
-                            <span>Subtle Carmine Red Tissue Silk Moti Lace Designer Saree</span>
-                            <span id="originalPrice">Rs.10200</span>
-                            <section id="finalPrice">
-                                <span id="discountPrice">Rs.6000</span>
-                                <span id="percentageDiscount">70% Off</span>
-                            </section>
-                        </section>
-                    </section>
-                </section> */}
             </section>
         </>
     )
