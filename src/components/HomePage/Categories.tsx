@@ -439,7 +439,7 @@ const Categories = () => {
 
                 {/***********************************************************/}
                 <section className="categoriesHeading">
-                    <p className="main">OUR COLLECTIONS</p>
+                    <p className="main">NEW ARRIVALS</p>
                 </section>
                 <section className="categoriesBody">
                     <section className="slidePart">
